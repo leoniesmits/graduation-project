@@ -1,0 +1,24 @@
+{
+  "name": "graduation-project",
+  "version": "1.0.0",
+  "description": "The graduation project for Communication and Multimedia Design @ Hogeschool van Amsterdam",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leoniesmits/graduation-project.git"
+  },
+  "author": "leonie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leoniesmits/graduation-project/issues"
+  },
+  "homepage": "https://github.com/leoniesmits/graduation-project#readme"
+}
