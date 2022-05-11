@@ -2,6 +2,8 @@
 const express = require('express')
 // const request = require('request')
 const bodyParser = require('body-parser')
+const d3 = require('d3')
+// const canvas = require('canvas')
 // const fs = require('fs')
 // const dataJson = require('./app/data/ingredients.json')
 
