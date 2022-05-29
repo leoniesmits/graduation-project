@@ -2,18 +2,26 @@
 const express = require('express')
 // const request = require('request')
 const bodyParser = require('body-parser')
-const d3 = require('d3')
+// const d3 = require('d3')
 // const canvas = require('canvas')
-// const fs = require('fs')
+const fs = require('fs')
 // const dataJson = require('./app/data/ingredients.json')
+
+
 
 // Create new express app in const app
 const app = express()
-
 // Add a config object and define port
 const config = {
     port: 7777
 }
+app.use(bodyParser.urlencoded({
+    extended: true
+}));
+app.use(express.static('public'))
+app.use('favicon.ico', express.static('/favicon.ico'));
+
+
 
 // async function dataParse() {
 //     // let data = fs.readFile('./app/data/ingredients.json', (err, data) => {  
@@ -26,10 +34,7 @@ const config = {
 // };
 
 // for parsing application/xwww-
-app.use(bodyParser.urlencoded({
-    extended: true
-}));
-app.use(express.static('public'))
+
 
 // const router = require('./router/router.js')
 

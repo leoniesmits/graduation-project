@@ -1,17 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <%- include('./partials/head'); %>
 </head>
+
 <body>
-    <section>
-        <h1>Pick datset</h1>
-        <button>
-            upload je eigen data
-        </button>
-        <button>
-            kies een voorbeeld dataset
-        </button>
-    </section>  
+
+    <main class="variables-main">
+        <h1>1. Kies je data</h1>
+        <div class="controls">
+            <button>
+                plak je data met ⌘+v
+            </button>
+            <button>
+                upload je eigen data
+            </button>
+            <button>
+                kies een voorbeeld dataset
+            </button>
+        </div>
+        <div class="datafield">
+
+        </div>
+
+    </main>
+
+    <script src="../js/variables.js"></script>
+    <%- include('./partials/footer'); %>
+
 </body>
+
 </html>

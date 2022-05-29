@@ -1,0 +1,138 @@
+:root {
+    --blue: #51AADF;
+    --pink: #E9476F;
+    --dark: #333333;
+    --orange: #FAB94B;
+    --green: #54D3AC;
+    --darkgreen: #45ae8e;
+    --grey: #707070;
+    --darkgrey: #444444;
+    --light: #e6ebf1;
+    --bg: #FFFBF6;
+    /* --headerfont: 'Koulen', cursive; */
+    /* --bodyfont: DM Mono, monospace; */
+    --bodyfont: 'Roboto Slab', serif;
+    /* --detailfont: "DecimaMono",Consolas,Monaco,monospace; */
+    --detailfont: 'Azeret Mono', monospace;
+    --headerfont: "Inconsolata", Monaco, "Lucida Console", Consolas, "Courier New";
+    --buttonfont: 'Avenir', sans-serif;
+}
+
+body {
+    background-color: white;
+    margin: 0;
+}
+
+
+p {
+    font-family: var(--bodyfont);
+    color: var(--dark);
+}
+
+span {
+    font-family: var(--detailfont);
+    font-size: 0.8em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--headerfont);
+    text-transform: uppercase;
+    font-size: 2.3em;
+    margin: 0;
+}
+
+
+
+button a {
+    font-family: var(--detailfont);
+    font-size: 1.7em;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+button:hover,
+button:focus {
+    color: #fff;
+    outline: 0;
+}
+
+footer .container {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+footer .row {
+    display: flex;
+    align-items: flex-start;
+    flex-flow: column;
+    justify-content: flex-start;
+    width: 30%;
+    padding: 1em;
+}
+
+footer .row:nth-of-type(2) {
+    align-items: center;
+}
+
+footer h1,
+footer h2,
+footer h3 {
+    font-size: 1em;
+}
+
+footer p {
+    font-size: 0.7em;
+}
+
+footer img {
+    width: 50px;
+}
+
+footer li {
+    text-decoration: none;
+}
+
+.home-main {
+    width: 80%;
+    margin: auto;
+}
+
+.home-main section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    margin-top: 2em;
+}
+
+.home-main button {
+    padding: 1em;
+    width: 20em;
+    height: 4em;
+    background-color: var(--green);
+    border: none;
+    border-radius: 10px;
+}
+
+.home-main button:nth-of-type(2) {
+    background-color: var(--dark);
+}
+
+.home-main button a {
+    font-size: 1em;
+    font-weight: bold;
+    color: white;
+}
+
+main {
+    height: 100vh;
+}

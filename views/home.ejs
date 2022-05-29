@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <%- include('./partials/head'); %>
 </head>
+
 <body>
-    <a href="/variables">definieer je variabelen</a>
-    <a href="/article">schrijf je artikel</a>    
+    <section>
+        <h1>Titel</h1>
+        <p>body tekst hiero</p>
+        <span>beetje tekst nog hier enzo</span>
+    </section>
+    <main class="home-main">
+        <section>
+            <button>
+                <a href="/variables">definieer je variabelen</a>
+            </button>
+            <button>
+                <a href="/article">schrijf je artikel</a>
+            </button>
+        </section>
+    </main>
+    <!-- <script src="js/app.js"></script> -->
+    <script src="../js/home.js"></script>
+    <%- include('./partials/footer'); %>
+
 </body>
+
 </html>
